@@ -14,11 +14,6 @@ const projects = [
     instagram: 'https://www.instagram.com/elnortenoparquet/'
   },
   {
-    name: 'GCTecno',
-    category: 'Branding',
-    image: '/placeholder-gctecno.jpg',
-  },
-  {
     name: 'Marino Brimer',
     category: 'Estrategia Digital & Redes Sociales',
     image: '/placeholder-marino.png',
