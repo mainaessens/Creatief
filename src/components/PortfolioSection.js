@@ -88,11 +88,8 @@ const PortfolioSection = () => {
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
 
-              {/* Degradado superior */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10"></div>
-
-              {/* Capa de color suave adicional */}
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-pink-500/10 z-10"></div>
+              {/* Degradado inferior para legibilidad */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent z-10"></div>
 
               {/* Contenido */}
               <div className="relative z-20 h-full flex flex-col justify-end p-8 space-y-2">
