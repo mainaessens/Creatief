@@ -7,16 +7,13 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
             <h2 className="text-4xl font-bold">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">Sobre</span> Creatief
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">Conocé</span> Creatief
             </h2>
             <p className="text-lg leading-relaxed">
-              Soy Mai, fundadora de Creatief Studio. Soy estudiante avanzada en Ingeniería Informática y una apasionada del marketing digital y las redes sociales. A lo largo de los años, he logrado combinar mis conocimientos técnicos con mi creatividad para desarrollar soluciones digitales únicas que hacen que las marcas se destaquen.
+              En Creatief fusionamos creatividad, estrategia y tecnología para hacer que las marcas brillen. Detrás de este estudio está <strong>Mai</strong>, apasionada por el diseño, el marketing digital y el poder de las redes sociales.
             </p>
             <p className="text-lg leading-relaxed">
-              Somos un equipo de profesionales capacitados con un enfoque claro: brindarle a tu marca ese toque distintivo que necesita para brillar en el mundo digital. Desde la creación de identidades visuales hasta estrategias personalizadas de redes sociales, nos encargamos de que tu marca se conecte de manera auténtica con tu público.
-            </p>
-            <p className="text-lg leading-relaxed">
-              Nuestra misión es ayudarte a construir una presencia sólida y memorable en las plataformas digitales, transformando tu visión en un proyecto real que capture la atención de todos. Con una mezcla de creatividad, estrategia y tecnología, trabajamos para que tu marca sea más que solo una imagen, sino una experiencia única.
+              Somos un equipo con una misión clara: transformar ideas en experiencias digitales auténticas que conecten con la gente y dejen huella.
             </p>
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
@@ -37,6 +34,7 @@ const AboutSection = () => {
               </div>
             </div>
           </div>
+
           <div className="relative">
             <div className="relative aspect-square rounded-2xl overflow-hidden border-2 border-purple-500/30">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-pink-500/10"></div>
