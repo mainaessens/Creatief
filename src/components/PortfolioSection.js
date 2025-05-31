@@ -4,7 +4,7 @@ const projects = [
   {
     name: 'GBC HOME',
     category: 'Diseño Web, Contenido & Redes Sociales',
-    image: '/placeholder-gbc.jpg',
+    image: '/placeholder-gbc.png',
     instagram: 'https://www.instagram.com/gbchome/'
   },
   {
