@@ -81,10 +81,20 @@ const PortfolioSection = () => {
               key={index}
               className="group relative overflow-hidden rounded-2xl aspect-square"
             >
+              {/* Imagen de fondo */}
+              <img 
+                src={project.image} 
+                alt={project.name}
+                className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+
+              {/* Degradado superior */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10"></div>
-              <div className="absolute inset-0 bg-gray-800">
-                <div className="w-full h-full bg-gradient-to-br from-purple-500/10 to-pink-500/10"></div>
-              </div>
+
+              {/* Capa de color suave adicional */}
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-pink-500/10 z-10"></div>
+
+              {/* Contenido */}
               <div className="relative z-20 h-full flex flex-col justify-end p-8 space-y-2">
                 <h3 className="text-2xl font-bold mb-1 group-hover:text-purple-300 transition-colors duration-300">{project.name}</h3>
                 <p className="text-gray-300">{project.category}</p>
@@ -98,9 +108,6 @@ const PortfolioSection = () => {
                     Ver en Instagram
                   </a>
                 )}
-              </div>
-              <div className="absolute inset-0 group-hover:scale-110 transition-transform duration-500">
-                <div className="w-full h-full bg-gray-700"></div>
               </div>
             </div>
           ))}
