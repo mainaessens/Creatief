@@ -10,7 +10,7 @@ const projects = [
   {
     name: 'El Norteño Parquet',
     category: 'Branding & Redes Sociales',
-    image: '/placeholder-norteno.jpg',
+    image: '/placeholder-norteno.png',
     instagram: 'https://www.instagram.com/elnortenoparquet/'
   },
   {
@@ -21,44 +21,44 @@ const projects = [
   {
     name: 'Marino Brimer',
     category: 'Estrategia Digital & Redes Sociales',
-    image: '/placeholder-marino.jpg',
+    image: '/placeholder-marino.png',
     instagram: 'https://www.instagram.com/marinobrimer/'
   },
   {
     name: 'Gran Bazar Chino',
     category: 'Contenido & Redes Sociales',
-    image: '/placeholder-bazar.jpg',
+    image: '/placeholder-bazar.png',
     instagram: 'https://www.instagram.com/elgranbazarchino/'
+  },
+  {
+    name: 'LZ Club de Belleza',
+    category: 'Fotografía, Contenido & Redes Sociales',
+    image: '/placeholder-lz.png',
+    instagram: 'https://www.instagram.com/lz_clubdebelleza/'
   },
   {
     name: 'Siempre Lindas',
     category: 'Fotografía, Contenido & Redes Sociales',
-    image: '/placeholder-siempre.jpg',
+    image: '/placeholder-siempre.png',
     instagram: 'https://www.instagram.com/siemprelindas_tuc/'
   },
   {
     name: 'GLOW',
     category: 'Contenido & Redes Sociales',
-    image: '/placeholder-glow.jpg',
+    image: '/placeholder-glow.png',
     instagram: 'https://www.instagram.com/glow.vodka/'
   },
   {
     name: 'Club Bambú',
     category: 'Branding, Contenido & Redes Sociales',
-    image: '/placeholder-bambu.jpg',
+    image: '/placeholder-bambu.png',
     instagram: 'https://www.instagram.com/clubbambu/'
   },
   {
     name: '23 Producciones',
     category: 'Estrategia Digital, Contenido & Spots Publicitarios',
-    image: '/placeholder-23producciones.jpg',
+    image: '/placeholder-23producciones.png',
     instagram: 'https://www.instagram.com/23producciones_/'
-  },
-  {
-    name: 'It´s Groove',
-    category: 'Estrategia Digital, Contenido & Spots Publicitarios',
-    image: '/placeholder-23producciones.jpg',
-    instagram: 'https://www.instagram.com/its.groove/'
   }
 ];
 
